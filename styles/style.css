@@ -582,6 +582,20 @@ input[type="checkbox"] {
 	align-items: center;
 }
 
+#still_qs_prod {
+	display: flex;
+	width: 90%;
+	max-width: 1800px;
+	color: #ffffff;
+	background-color: #242424;
+	padding: 2rem;
+	margin: 30px auto;
+	border-radius: 48px;
+	column-gap: 3%;
+	align-items: center;
+}
+
+
 #connect h3,
 #still_qs h3 {
 	font-size: 1.8rem;
