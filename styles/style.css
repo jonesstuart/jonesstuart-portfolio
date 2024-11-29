@@ -123,6 +123,10 @@ header {
 	font-size: 5rem;
 }
 
+.services h3 {
+	font-size: 2rem;
+}
+
 .services h4,
 #process h3,
 #faq h3 {
@@ -170,6 +174,7 @@ header {
 .more_questions a,
 .services h6,
 .services h4,
+.services h3,
 #faq h3,
 #process h3,
 .section_title a,
