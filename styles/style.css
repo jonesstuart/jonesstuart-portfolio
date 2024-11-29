@@ -118,11 +118,13 @@ header {
 #hero,
 .services .fa-solid,
 .services .fa-regular,
+#process .fa-regular,
 #faq .fa-regular {
 	font-size: 5rem;
 }
 
 .services h4,
+#process h3,
 #faq h3 {
 	font-size: 1.8rem;
 	font-weight: 400;
@@ -169,12 +171,14 @@ header {
 .services h6,
 .services h4,
 #faq h3,
+#process h3,
 .section_title a,
 .section_text h4,
 .section_title h3,
 .services .fa-solid,
 .services .fa-regular,
 #faq .fa-regular,
+#process .fa-regular,
 .nav-item:hover,
 .testimonial_name {
 	color: orangered;
@@ -199,7 +203,8 @@ header {
 /* BORDER COLORS */
 
 .services,
-#faq {
+#faq,
+#process {
 	border: 1px solid rgba(255, 69, 0, 0.3);
 }
 
@@ -217,10 +222,6 @@ button:hover,
 	background: linear-gradient(90deg, rgba(131, 58, 180, 0.8) 0%, rgba(253, 29, 29, 0.8) 50%, rgba(252, 176, 69, 0.8) 100%);
 }
 
-.section_title_no_border {
-	background-color: #ffffff;
-}
-
 .services
 #blank {
 	background-color: #141414;
@@ -229,6 +230,10 @@ button:hover,
 #hello,
 .section_title {
 	background-color: #242424;
+}
+
+.section_title_no_border {
+	background-color: #ffffff;
 }
 
 /* NAVIGATION BAR */
@@ -564,8 +569,9 @@ button:hover,
 	text-align: right;
 }
 
-/* FAQS */
+/* PROCESS & FAQS */
 
+#process,
 #faq {
 	display: block;
 	text-align: left;
@@ -707,7 +713,7 @@ button:hover {
 }
 
 .testimonial_name {
-	text-align: center;
+	text-align: left;
 }
 
 /* Social Media Icon Styling */
