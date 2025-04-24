@@ -473,7 +473,7 @@ button:hover,
 #project_grid {
 	display: grid;
 	max-width: 1800px;
-	grid-template: 1fr 1fr / repeat(2, 1fr);
+	grid-template: 1fr 1fr / repeat(3, 1fr);
 	justify-content: center;
 	justify-self: center;
 	flex-wrap: wrap;
