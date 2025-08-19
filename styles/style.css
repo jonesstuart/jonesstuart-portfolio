@@ -1,5 +1,17 @@
 /*SITE WIDE */
 
+.case-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+  gap: 16px; /* Adjust spacing as desired */
+}
+.grid-item {
+  background: #f9f9f9;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+
 html {
 	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
@@ -478,7 +490,7 @@ button:hover,
 #project_grid {
 	display: grid;
 	max-width: 1800px;
-	grid-template: 1fr 1fr / repeat(3, 1fr);
+	grid-template: 1fr 1fr / repeat(2, 1fr);
 	justify-content: center;
 	justify-self: center;
 	flex-wrap: wrap;
